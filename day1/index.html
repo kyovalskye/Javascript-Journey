@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I swear i will sniff ur socks</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        let fullname = "Kyovalskye"
+        let age = 16
+        let isStudent = true
+        document.getElementById("p1").textContent = `My name is ${fullname}`; 
+        document.getElementById("p2").textContent = `My age are ${age} years old`; 
+        if (isStudent === true) {
+            document.getElementById("p3").textContent = "Im still a student"
+        }else{
+            document.getElementById("p3").textContent = "Im not a student"
+        }
+    </script>
+</body>
+</html>
